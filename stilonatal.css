@@ -64,7 +64,7 @@ a{
 .imgDestaque{
     width: 70%;
     margin-left: 20%;
-    margin-botton: 10px;
+    margin-bottom: 10px;
 }
 h3{
     text-align: center;
@@ -124,16 +124,4 @@ button{
     font-size: 20px;
     box-shadow:blue 2px 2px 5px;
 
-}
-.spinner{
-    height: 30px;
-    widht: 30px;
-    animation: spinner 0.7s linear infinite;
-
-}
-
-@keyframes spinner {
-    to {
-        transform: rotate(360deg);
-    }
 }
