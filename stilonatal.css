@@ -62,7 +62,7 @@ a{
     box-shadow: gray 2px 2px 3px;
 }
 .imgDestaque{
-    width: 10%;
+    width: 70%;
     margin-left: 20%;
     margin-botton: 10px;
 }
@@ -118,10 +118,22 @@ input{
 button{
     background-color: rgb(80,80,250);
     width: 100px;
-    height: 60px;
+    height: 45px;
     border: rgb: ( 80,80,250) 1px solid;
     color: white;
     font-size: 20px;
     box-shadow:blue 2px 2px 5px;
 
+}
+.spinner{
+    height: 30px;
+    widht: 30px;
+    animation: spinner 0.7s linear infinite;
+
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
 }
